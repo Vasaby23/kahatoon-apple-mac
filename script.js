@@ -12,9 +12,9 @@ window.addEventListener('scroll', function () {
 });
 
 function changePhotos(number) {
-  document.getElementById('charge').src = `/imgs/charge${number}.jpg`;
-  document.getElementById('lap').src = `/imgs/lap${number}.jpg`;
-  document.getElementById('mac').src = `/imgs/mac${number}.jpg`;
+  document.getElementById('charge').src = `charge${number}.jpg`;
+  document.getElementById('lap').src = `lap${number}.jpg`;
+  document.getElementById('mac').src = `mac${number}.jpg`;
   let allSwitches = document.querySelectorAll('.switch');
   allSwitches.forEach(function (element) {
     element.classList.remove('selected');
@@ -65,12 +65,12 @@ function toggleAuto() {
   if (autoInterval) {
     clearInterval(autoInterval);
     autoInterval = null;
-    autoButton.src = '/imgs/icon_play__c1w1nbnuzqwm_large.svg';
+    autoButton.src = 'icon_play__c1w1nbnuzqwm_large.svg';
   } else {
     autoInterval = setInterval(() => {
       changeSlide(1);
     }, 3000);
-    autoButton.src = '/imgs/solar--pause-bold.svg';
+    autoButton.src = 'solar--pause-bold.svg';
   }
 }
 
@@ -176,7 +176,7 @@ document.getElementById('select-with-item-mac').addEventListener('change', funct
 
 function changePhoto(number) {
   let photo = document.getElementById('photo-second');
-  photo.src = `/imgs/phone${number}.jpg`;
+  photo.src = `phone${number}.jpg`;
 
   let allSwitches = document.querySelectorAll('.switch-second');
   allSwitches.forEach(function (element) {
