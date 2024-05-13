@@ -1,14 +1,14 @@
 @font-face {
     font-family: my1;
-    src: url(/imgs/SF-Pro-Display-Regular.otf);
+    src: url(SF-Pro-Display-Regular.otf);
 }
 @font-face {
     font-family: my2;
-    src: url(/imgs/SF-Pro-Display-Semibold.otf);
+    src: url(SF-Pro-Display-Semibold.otf);
 }
 @font-face {
     font-family: my3;
-    src: url(/imgs/SF-Pro-Display-Light.otf);
+    src: url(SF-Pro-Display-Light.otf);
 }
 body {
     margin: 0;
